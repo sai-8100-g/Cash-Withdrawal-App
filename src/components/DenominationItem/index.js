@@ -2,11 +2,18 @@ import {Component} from 'react'
 
 class DenominationItem extends Component {
   render() {
-    const {denomination} = this.props
+    const {denomination, OnChangeAmount} = this.props
+    const {value, id} = denomination
+
+    const OnSubtract = () => {
+      OnChangeAmount(id)
+    }
 
     return (
       <li>
-        <button type="button">{denomination}</button>
+        <button type="button" onClick={OnSubtract}>
+          {value}
+        </button>
       </li>
     )
   }
