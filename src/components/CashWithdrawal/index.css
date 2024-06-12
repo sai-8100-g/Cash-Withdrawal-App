@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.withdrawal-container {
+  width: 50vw;
+  height: 80vh;
+  padding: 20px;
+  background-color: #150b3e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border: 0px solid;
+  border-radius: 20px;
+}
+
+.name-container p {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.balance-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #585076;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.withdrawal-heading {
+  color: #d4d2db;
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+.amount {
+  font-size: 2vw;
+  color: #d4d2db;
+}
+
+.cash-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.withdrawal-para {
+  font-size: 1.5vw;
+  font-family: 'Roboto';
+}
+
+Span {
+  padding: 10px 20px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  border-radius: 50%;
+}
+
+.cash-container div {
+  width: 40%;
+  height: 30px;
+  background-color: #585076;
+  color: #d4d2db;
+  font-weight: bold;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #d4d2db;
+  border-radius: 10px;
+}
